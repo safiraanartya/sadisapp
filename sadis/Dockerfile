@@ -5,7 +5,7 @@ FROM python:3.9-slim
  WORKDIR /
 
 # Salin file aplikasi Anda ke dalam container
- COPY . /
+ COPY . .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
