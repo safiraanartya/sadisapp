@@ -11,7 +11,7 @@ FROM python:3.9-slim
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Jalankan perintah migrate Django
-RUN python ./sadis/manage.py migrate
+RUN python manage.py migrate
 
 # Tentukan perintah untuk menjalankan aplikasi
-CMD ["python", "sadis/manage.py", "runserver", "0.0.0.0:3306"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:3306"]
