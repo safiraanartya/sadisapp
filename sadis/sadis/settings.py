@@ -28,8 +28,8 @@ SECRET_KEY = 'django-insecure-0^d-=497o95sh)vj%xzo%$u08egykiydc8y6h_#t5!w&!g2)m8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS = ['sadisapp.up.railway.app', 'https://sadisapp.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['sadisapp.up.railway.app', 'https://sadisapp.up.railway.app']
 
 # Application definition
 
