@@ -107,14 +107,25 @@ WSGI_APPLICATION = 'sadis.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'db_sadis',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_sadis',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'jnKelrzhXzsDrBfbTEGrgmLbHlqVCuUE',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'PORT': '53200',
     }
 }
 
