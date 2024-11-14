@@ -60,15 +60,14 @@ AUTHENTICATION_BACKENDS = [
 #         'PORT': '3306',
 #     }
 # }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
         'USER': 'root',
         'PASSWORD': 'jnKelrzhXzsDrBfbTEGrgmLbHlqVCuUE',
-        'HOST': 'mysql.railway.internal',
-        'PORT': '3306',
+        'HOST': 'autorack.proxy.rlwy.net',
+        'PORT': '53200',
     }
 }
 
